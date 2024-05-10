@@ -1,10 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
 import './index.css'
+import { RouterProvider } from 'react-router-dom'
+import router from './routes/routes.tsx'
+
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <div className='max-w-6xl mx-auto'>
+      <RouterProvider router={router} >     
+    </RouterProvider>
+    </div>
+   
   </React.StrictMode>,
 )
