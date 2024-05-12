@@ -1,0 +1,24 @@
+
+.photo_allbum{
+    overflow: hidden;
+}
+.allbum{
+    transition:1.1s;
+   
+}
+.photo_allbum:hover .allbum{
+  transform: scale(1.2);
+  border-radius: 2px;
+  opacity: .3;
+ 
+}
+
+.description{
+    transition:.3s ease-in-out ;
+}
+  .photo_allbum:hover .description{
+   visibility: visible;
+   transform: scale(1.1);
+   border-radius: 2px;
+   color: rgb(37, 38, 37);
+}

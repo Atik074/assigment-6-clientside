@@ -7,7 +7,7 @@ const Testimonials = () => {
               <h1 className="text-3xl mb-4 text-amber-500 underline decoration-wavy font-semibold">Testimonials</h1>
               <p className="text-xl">Our golden member who donates highest pay in  every year.</p>
             </div>
- 
+     
        <TestimonialCard/>
   </div>
     );

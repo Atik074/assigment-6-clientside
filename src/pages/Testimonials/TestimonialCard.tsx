@@ -6,6 +6,8 @@ import {
     CarouselPrevious,
   } from "@/components/ui/carousel"
 
+
+
   const slides=[
     'https://shorturl.at/sNV28',
     'https://shorturl.at/joGJU',
@@ -19,6 +21,7 @@ import {
 const TestimonialCard = () => {
     return (
         <div className="w-full px-40 mt-10 mb-[100px]"> 
+
     <Carousel>
     <CarouselContent >
       {slides.map((img , index) => (
