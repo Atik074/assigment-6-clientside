@@ -3,7 +3,7 @@ import './ImageGallery.css'
 
 const ImagesGallaery = () => {
     return (
-    <div className='grid grid-cols-3 gap-4'>
+    <div className='grid grid-cols-3 gap-8'>
       <div className='w-[400px] border shadow-md relative photo_allbum rounded-md'>
             <img src={img} className="allbum rounded-md shadow  " alt="" />    
     <div className='bottom-8 absolute description  text-center px-10 invisible'>

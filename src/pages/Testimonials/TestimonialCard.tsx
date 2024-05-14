@@ -20,7 +20,7 @@ import {
 
 const TestimonialCard = () => {
     return (
-        <div className="w-full px-40 mt-10 mb-[100px]"> 
+        <div className="w-full px-28 mt-10 mb-[100px]"> 
 
     <Carousel>
     <CarouselContent >
